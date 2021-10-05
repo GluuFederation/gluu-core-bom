@@ -7,19 +7,19 @@
 	<artifactId>gluu-core-bom</artifactId>
 	<packaging>pom</packaging>
 	<name>gluu-core-bom</name>
-	<version>5.0.0-SNAPSHOT</version>
+	<version>4.3.0.Final</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.min-version>3.0.3</maven.min-version>
 
-		<resteasy.version>3.13.0.Final</resteasy.version>
-		<resteasy.jaxrs.version>3.13.0.Final</resteasy.jaxrs.version>
+		<resteasy.version>3.15.1.Final</resteasy.version>
+		<resteasy.jaxrs.version>3.15.1.Final</resteasy.jaxrs.version>
 
-		<httpcore.version>4.4.13</httpcore.version>
+		<httpcore.version>4.4.14</httpcore.version>
 		<httpclient.version>4.5.13</httpclient.version>
 
-		<weld.version>3.1.4.Final</weld.version>
+		<weld.version>3.1.8.Final</weld.version>
 		<richfaces.version>4.5.18-gluu.Final</richfaces.version>
 
 		<jsf-api.version>2.2.20</jsf-api.version>
@@ -27,16 +27,17 @@
 		<uel-api.version>2.2.1-b04</uel-api.version>
 		<uel-impl.version>2.2.1-b05</uel-impl.version>
 
-		<jackson.version>2.11.2</jackson.version>
+		<jackson.version>2.12.4</jackson.version>
 		<jackson.databind.version>2.11.2</jackson.databind.version>
-		<json.version>20200518</json.version>
+		<json.version>20210307</json.version>
 
-		<log4j.version>2.13.3</log4j.version>
-		<slf4j.version>1.7.30</slf4j.version>
+		<log4j.version>2.14.1</log4j.version>
+		<slf4j.version>1.7.31</slf4j.version>
 
-		<guava.version>29.0-jre</guava.version>
+		<guava.version>30.1.1-jre</guava.version>
 
-		<aws.sns.version>1.11.836</aws.sns.version>
+		<aws.sns.version>1.12.25</aws.sns.version>
+		<jackrabbit.version>2.21.7</jackrabbit.version>
 	</properties>
 
 	<repositories>
@@ -133,52 +134,69 @@
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-annotation</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-cdi</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-couchbase</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-filter</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-hybrid</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-ldap</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-model</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
-                <artifactId>oxcore-persistence-standalone</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.gluu</groupId>
                 <artifactId>oxcore-script</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+	<!-- ORM -->
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-annotation</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-cdi</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-filter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-couchbase</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-sql</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-spanner</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-hybrid</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-ldap</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-standalone</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gluu</groupId>
+                <artifactId>gluu-orm-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -193,17 +211,17 @@
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcprov-jdk15on</artifactId>
-				<version>1.67</version>
+				<version>1.69</version>
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcpkix-jdk15on</artifactId>
-				<version>1.66</version>
+				<version>1.69</version>
 			</dependency>
 			<dependency>
 				<groupId>com.nimbusds</groupId>
 				<artifactId>nimbus-jose-jwt</artifactId>
-				<version>8.20</version>
+				<version>9.11.1</version>
 			</dependency>
 
 			<!-- Weld -->
@@ -291,7 +309,7 @@
 			<dependency>
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
-				<version>2.7</version>
+				<version>2.11.0</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-lang</groupId>
@@ -301,7 +319,7 @@
 			<dependency>
 				<groupId>commons-codec</groupId>
 				<artifactId>commons-codec</artifactId>
-				<version>1.14</version>
+				<version>1.15</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.commons</groupId>
@@ -417,22 +435,32 @@
 				<version>2.7.2</version>
 			</dependency>
 
-			<!-- Jackrabbit content repository --> 
-			<dependency> 
-			        <groupId>javax.jcr</groupId> 
-			        <artifactId>jcr</artifactId> 
-			        <version>2.0</version> 
-			 </dependency> 
-        		 <dependency>
-			        <groupId>org.apache.jackrabbit</groupId>
-		        	<artifactId>jackrabbit-core</artifactId>
-			        <version>2.21.3</version>
-			 </dependency>
-			 <dependency>
-			    	<groupId>org.apache.jackrabbit</groupId>
-			    	<artifactId>jackrabbit-jcr-rmi</artifactId>
-			    	<version>2.21.3</version>
-			 </dependency>
+					<!-- Jackrabbit content repository -->
+			<dependency>
+				<groupId>javax.jcr</groupId>
+				<artifactId>jcr</artifactId>
+				<version>2.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.jackrabbit</groupId>
+				<artifactId>jackrabbit-core</artifactId>
+				<version>${jackrabbit.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.jackrabbit</groupId>
+				<artifactId>jackrabbit-jcr-rmi</artifactId>
+				<version>${jackrabbit.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.jackrabbit</groupId>
+				<artifactId>jackrabbit-webdav</artifactId>
+				<version>${jackrabbit.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.lookfirst</groupId>
+				<artifactId>sardine</artifactId>
+				<version>5.10</version>
+			</dependency>
 
 			<!-- RestEasy -->
 			<dependency>
@@ -480,16 +508,16 @@
 
 			<!-- Net -->
 			<dependency>
-				<groupId>javax.mail</groupId>
-				<artifactId>mail</artifactId>
-				<version>1.4.7</version>
+				<groupId>com.sun.mail</groupId>
+				<artifactId>jakarta.mail</artifactId>
+				<version>1.6.7</version>
 			</dependency>
 
 			<!-- Cache -->
 			<dependency>
 				<groupId>net.sf.ehcache</groupId>
 				<artifactId>ehcache-core</artifactId>
-				<version>2.10.6</version>
+				<version>2.10.9.2</version>
 			</dependency>
 
 			<dependency>
@@ -505,7 +533,7 @@
 			<dependency>
 				<groupId>redis.clients</groupId>
 				<artifactId>jedis</artifactId>
-				<version>2.10.2</version>
+				<version>2.10.0</version>
 			</dependency>
 
 			<!-- HTTP client -->
@@ -519,6 +547,11 @@
 				<artifactId>httpcore</artifactId>
 				<version>${httpcore.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>commons-httpclient</groupId>
+				<artifactId>commons-httpclient</artifactId>
+				<version>3.1</version>
+			</dependency>
 
 			<!-- SAML -->
 			<dependency>
@@ -531,34 +564,67 @@
 				<artifactId>opensaml</artifactId>
 				<version>2.6.4</version>
 			</dependency>
+			<dependency>
+			    <groupId>org.apache.santuario</groupId>
+			    <artifactId>xmlsec</artifactId>
+			    <version>2.2.2</version>
+			</dependency>
 
 			<!-- LDAP -->
 			<dependency>
 				<groupId>com.unboundid</groupId>
 				<artifactId>unboundid-ldapsdk</artifactId>
-				<version>5.1.0</version>
+				<version>6.0.0</version>
 			</dependency>
 
 			<!-- Couchbase -->
 			<dependency>
 				<groupId>com.couchbase.client</groupId>
 				<artifactId>java-client</artifactId>
-				<version>2.7.16</version>
+				<version>2.7.20</version>
+			</dependency>
+
+			<!-- SQL JDBC Drivers -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-dbcp2</artifactId>
+				<version>2.8.0</version>
+			</dependency>
+			<dependency>
+			    <groupId>mysql</groupId>
+			    <artifactId>mysql-connector-java</artifactId>
+			    <version>8.0.25</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.postgresql</groupId>
+			    <artifactId>postgresql</artifactId>
+			    <version>42.2.23.jre7</version>
+			</dependency>
+
+			<!-- SQL Query -->
+			<dependency>
+			    <groupId>com.querydsl</groupId>
+			    <artifactId>querydsl-sql</artifactId>
+			    <version>4.4.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.jsqlparser</groupId>
+				<artifactId>jsqlparser</artifactId>
+				<version>4.1</version>
+			</dependency>
+
+			<!-- Cloud Spanner -->
+			<dependency>
+			    <groupId>com.google.cloud</groupId>
+			    <artifactId>google-cloud-spanner</artifactId>
+			    <version>6.9.1</version>
 			</dependency>
 
 			<!-- Metrics -->
 			<dependency>
 				<groupId>io.dropwizard.metrics</groupId>
 				<artifactId>metrics-core</artifactId>
-				<version>4.1.11</version>
-			</dependency>
-
-			<!-- Jetty -->
-			<dependency>
-				<groupId>org.eclipse.jetty</groupId>
-				<artifactId>jetty-deploy</artifactId>
-				<version>9.4.19.v20190610</version>
-				<scope>provided</scope>
+				<version>4.2.2</version>
 			</dependency>
 			
 			<!-- Timer -->
@@ -566,6 +632,13 @@
 				<groupId>org.quartz-scheduler</groupId>
 				<artifactId>quartz</artifactId>
 				<version>2.3.2</version>
+			</dependency>
+
+			<!-- Time -->
+			<dependency>
+			    <groupId>joda-time</groupId>
+			    <artifactId>joda-time</artifactId>
+			    <version>2.10.10</version>
 			</dependency>
 
 			<!-- AWS SNS -->
@@ -597,7 +670,19 @@
 			<dependency>
 				<groupId>org.apache.velocity</groupId>
 				<artifactId>velocity-engine-core</artifactId>
-				<version>2.2</version>
+				<version>2.3</version>
+			</dependency>
+
+			<!-- Deprecated XML libraries -->
+			<dependency>
+				<groupId>jakarta.xml.bind</groupId>
+				<artifactId>jakarta.xml.bind-api</artifactId>
+				<version>3.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.annotation</groupId>
+				<artifactId>javax.annotation-api</artifactId>
+				<version>1.3.2</version>
 			</dependency>
 
 			<!-- Tests -->
@@ -610,8 +695,16 @@
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.13.1</version>
+				<version>4.13.2</version>
 				<scope>test</scope>
+			</dependency>
+
+			<!-- Jetty -->
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-deploy</artifactId>
+				<version>9.4.43.v20210629</version>
+				<scope>provided</scope>
 			</dependency>
 
 			<!--Can be removed once TestNG dependency contains JCommander 1.74 or 
@@ -621,6 +714,18 @@
 				<artifactId>jcommander</artifactId>
 				<version>1.78</version>
 				<scope>test</scope>
+			</dependency>
+
+			<!-- Use compatible with selenium-htmlunit-driver version -->
+			<dependency>
+				<groupId>net.sourceforge.htmlunit</groupId>
+				<artifactId>htmlunit</artifactId>
+				<version>2.24</version>
+			</dependency>
+			<dependency>
+				<groupId>org.w3c.css</groupId>
+				<artifactId>sac</artifactId>
+				<version>1.3</version>
 			</dependency>
 
 		</dependencies>
