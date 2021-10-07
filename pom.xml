@@ -57,6 +57,11 @@
 			<name>Gluu repository</name>
 			<url>https://ox.gluu.org/maven</url>
 		</repository>
+        <repository>
+            <id>mulesoft</id>
+            <name>mulesoft</name>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+        </repository>
 	</repositories>
 
 	<dependencyManagement>
@@ -572,7 +577,7 @@
             <dependency>
                 <groupId>ca.juliusdavies</groupId>
                 <artifactId>not-yet-commons-ssl</artifactId>
-                <version>0.3.15</version>
+                <version>0.3.17</version>
             </dependency>
 			<dependency>
 			    <groupId>org.apache.santuario</groupId>
