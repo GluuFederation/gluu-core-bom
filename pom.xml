@@ -569,6 +569,11 @@
                 <artifactId>esapi</artifactId>
                 <version>2.1.0.1</version>
             </dependency>
+            <dependency>
+                <groupId>ca.juliusdavies</groupId>
+                <artifactId>not-yet-commons-ssl</artifactId>
+                <version>0.3.15</version>
+            </dependency>
 			<dependency>
 			    <groupId>org.apache.santuario</groupId>
 			    <artifactId>xmlsec</artifactId>
