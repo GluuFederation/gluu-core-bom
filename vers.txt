@@ -1,0 +1,199 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< org.gluu:gluu-core-bom >-----------------------
+[INFO] Building gluu-core-bom 4.3.1-SNAPSHOT
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.8.1:display-dependency-updates (default-cli) @ gluu-core-bom ---
+[INFO] The following dependencies in Dependency Management have newer versions:
+[INFO]   ch.qos.logback:logback-classic ................ 1.2.1 -> 1.3.0-alpha10
+[INFO]   com.couchbase.client:java-client ..................... 2.7.20 -> 3.2.2
+[INFO]   com.github.spotbugs:spotbugs-annotations .............. 4.2.3 -> 4.4.2
+[INFO]   com.google.inject:guice ............................... 4.2.1 -> 5.0.1
+[INFO]   com.nimbusds:nimbus-jose-jwt ................ 9.15.2 -> 9.16-preview.1
+[INFO]   com.querydsl:querydsl-sql ............................. 4.4.0 -> 5.0.0
+[INFO]   com.sun.mail:jakarta.mail ............................. 1.6.7 -> 2.0.1
+[INFO]   com.unboundid:unboundid-ldapsdk ....................... 6.0.0 -> 6.0.2
+[INFO]   commons-collections:commons-collections ............ 3.2.2 -> 20040616
+[INFO]   commons-httpclient:commons-httpclient .......... 3.1 -> 3.1-jbossorg-1
+[INFO]   jakarta.activation:jakarta.activation-api ......... 1.2.2 -> 2.1.0-RC1
+[INFO]   jakarta.el:jakarta.el-api ............................. 3.0.2 -> 4.0.0
+[INFO]   jakarta.inject:jakarta.inject-api .................. 1.0.3 -> 2.0.1.MR
+[INFO]   jakarta.persistence:jakarta.persistence-api ........... 2.2.3 -> 3.0.0
+[INFO]   jakarta.servlet.jsp:jakarta.servlet.jsp-api ........... 2.3.6 -> 3.0.0
+[INFO]   jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api ...
+[INFO]                                                           1.2.7 -> 2.0.0
+[INFO]   jakarta.xml.bind:jakarta.xml.bind-api ............. 3.0.1 -> 4.0.0-RC2
+[INFO]   javax.inject:javax.inject ............................. 1 -> 1.0-PFD-1
+[INFO]   javax.servlet:javax.servlet-api ....................... 3.1.0 -> 4.0.1
+[INFO]   net.jodah:expiringmap ................................ 0.5.9 -> 0.5.10
+[INFO]   net.sourceforge.htmlunit:htmlunit ..................... 2.24 -> 2.54.0
+[INFO]   org.apache.commons:commons-lang3 ..................... 3.8.1 -> 3.12.0
+[INFO]   org.apache.maven:maven-artifact ....................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-builder-support ................ 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-compat ......................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-core ........................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-embedder ....................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-model .......................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-model-builder .................. 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-plugin-api ..................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-repository-metadata ............ 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-resolver-provider .............. 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-settings ....................... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-settings-builder ............... 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven:maven-slf4j-provider ................. 3.6.3 -> 3.8.3
+[INFO]   org.apache.maven.plugin-tools:maven-plugin-annotations ...
+[INFO]                                                           3.5.2 -> 3.6.1
+[INFO]   org.apache.maven.resolver:maven-resolver-api .......... 1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.resolver:maven-resolver-connector-basic ...
+[INFO]                                                           1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.resolver:maven-resolver-impl ......... 1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.resolver:maven-resolver-spi .......... 1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.resolver:maven-resolver-transport-wagon ...
+[INFO]                                                           1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.resolver:maven-resolver-util ......... 1.4.1 -> 1.7.2
+[INFO]   org.apache.maven.shared:maven-shared-utils ............ 3.2.1 -> 3.3.4
+[INFO]   org.apache.maven.wagon:wagon-file ..................... 3.3.4 -> 3.4.3
+[INFO]   org.apache.maven.wagon:wagon-http ..................... 3.3.4 -> 3.4.3
+[INFO]   org.apache.maven.wagon:wagon-provider-api ............. 3.3.4 -> 3.4.3
+[INFO]   org.codehaus.groovy:groovy-all ....................... 2.4.21 -> 3.0.9
+[INFO]   org.codehaus.plexus:plexus-interpolation ................ 1.25 -> 1.26
+[INFO]   org.codehaus.plexus:plexus-utils ...................... 3.2.1 -> 3.4.1
+[INFO]   org.eclipse.jetty:jetty-deploy ............ 9.4.43.v20210629 -> 11.0.7
+[INFO]   org.eclipse.sisu:org.eclipse.sisu.inject .............. 0.3.4 -> 0.3.5
+[INFO]   org.eclipse.sisu:org.eclipse.sisu.plexus .............. 0.3.4 -> 0.3.5
+[INFO]   org.fusesource.jansi:jansi ........................... 1.17.1 -> 2.4.0
+[INFO]   org.glassfish:jakarta.el .............................. 3.0.2 -> 4.0.2
+[INFO]   org.glassfish:jakarta.faces ....................... 2.3.14 -> 4.0.0-M1
+[INFO]   org.hamcrest:hamcrest-core ................................ 1.3 -> 2.2
+[INFO]   org.hamcrest:hamcrest-library ............................. 1.3 -> 2.2
+[INFO]   org.jboss:jandex .......................... 2.2.3.Final -> 2.4.1.Final
+[INFO]   org.jboss.arquillian.config:arquillian-config-api ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.config:arquillian-config-impl-base ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.config:arquillian-config-spi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-container-impl-base ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-container-spi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-container-test-api ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-container-test-impl-base ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-container-test-spi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.container:arquillian-tomcat-embedded-9 ...
+[INFO]                                              1.1.0.Final -> 1.2.0.Alpha1
+[INFO]   org.jboss.arquillian.container:arquillian-weld-embedded ...
+[INFO]                                               2.1.0.Final -> 3.0.0.Final
+[INFO]   org.jboss.arquillian.core:arquillian-core-api ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.core:arquillian-core-impl-base ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.core:arquillian-core-spi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.junit:arquillian-junit-container ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.junit:arquillian-junit-core ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.junit:arquillian-junit-standalone ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.junit5:arquillian-junit5-container ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.junit5:arquillian-junit5-core ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.protocol:arquillian-protocol-jmx ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.protocol:arquillian-protocol-servlet ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.protocol:arquillian-protocol-servlet-jakarta ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.test:arquillian-test-api ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.test:arquillian-test-impl-base ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.test:arquillian-test-spi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-cdi ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-cdi-jakarta ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-ejb ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-ejb-jakarta ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-initialcontext ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-resource ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testenricher:arquillian-testenricher-resource-jakarta ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testng:arquillian-testng-container ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testng:arquillian-testng-core ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.arquillian.testng:arquillian-testng-standalone ...
+[INFO]                                            1.7.0.Alpha9 -> 1.7.0.Alpha10
+[INFO]   org.jboss.logmanager:jboss-logmanager ... 2.1.18.Final -> 2.3.0.Alpha1
+[INFO]   org.jboss.resteasy:resteasy-cdi .......... 3.15.2.Final -> 5.0.0.Beta2
+[INFO]   org.jboss.resteasy:resteasy-client ....... 3.15.2.Final -> 5.0.0.Beta2
+[INFO]   org.jboss.resteasy:resteasy-jackson2-provider ...
+[INFO]                                              3.15.2.Final -> 5.0.0.Beta2
+[INFO]   org.jboss.resteasy:resteasy-jaxb-provider ...
+[INFO]                                              3.15.2.Final -> 5.0.0.Beta2
+[INFO]   org.jboss.resteasy:resteasy-jaxrs ........ 3.15.2.Final -> 4.0.0.Beta5
+[INFO]   org.jboss.resteasy:resteasy-servlet-initializer ...
+[INFO]                                              3.15.2.Final -> 5.0.0.Beta2
+[INFO]   org.jboss.spec.javax.faces:jboss-jsf-api_2.3_spec ...
+[INFO]                                                3.0.0.Final -> 3.0.0.SP04
+[INFO]   org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec ...
+[INFO]                                               2.0.1.Final -> 2.0.2.Final
+[INFO]   org.jboss.weld:weld-api ........................ 3.1.SP4 -> 5.0.Alpha4
+[INFO]   org.jboss.weld:weld-core-impl ............. 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld:weld-core-test ............. 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld:weld-core-test-common ...... 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld:weld-porting-package-tck ... 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld:weld-spi ........................ 3.1.SP4 -> 5.0.Alpha4
+[INFO]   org.jboss.weld.environment:weld-environment-common ...
+[INFO]                                               3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.module:weld-ejb ............ 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.module:weld-jsf ............ 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.module:weld-jta ............ 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.module:weld-web ............ 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.probe:weld-probe-core ...... 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.se:weld-se-core ............ 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.se:weld-se-shaded .......... 3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.servlet:weld-servlet-core ...
+[INFO]                                               3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jboss.weld.servlet:weld-servlet-shaded ...
+[INFO]                                               3.1.8.Final -> 4.0.2.Final
+[INFO]   org.jsoup:jsoup ..................................... 1.12.1 -> 1.14.3
+[INFO]   org.mockito:mockito-core ............................. 2.21.0 -> 4.0.0
+[INFO]   org.owasp.esapi:esapi ............................. 2.1.0.1 -> 2.2.3.1
+[INFO]   org.postgresql:postgresql ..................... 42.2.23.jre7 -> 42.3.0
+[INFO]   org.powermock:powermock-reflect ....................... 1.7.4 -> 2.0.9
+[INFO]   org.richfaces:richfaces ............ 4.5.19-gluu.Final -> 5.0.0.Alpha3
+[INFO]   org.slf4j:jul-to-slf4j ........................ 1.7.31 -> 2.0.0-alpha5
+[INFO]   org.slf4j:slf4j-api ........................... 1.7.31 -> 2.0.0-alpha5
+[INFO]   org.slf4j:slf4j-log4j12 ....................... 1.7.31 -> 2.0.0-alpha5
+[INFO]   org.slf4j:slf4j-simple ........................ 1.7.31 -> 2.0.0-alpha5
+[INFO]   org.testng:testng ...................................... 5.11 -> 7.4.0
+[INFO]   org.testng:testng .................................... 6.14.3 -> 7.4.0
+[INFO]   org.wildfly.arquillian:wildfly-arquillian-common ...
+[INFO]                                              3.0.1.Final -> 5.0.0.Alpha1
+[INFO]   org.wildfly.arquillian:wildfly-arquillian-container-managed ...
+[INFO]                                              3.0.1.Final -> 5.0.0.Alpha1
+[INFO]   org.wildfly.arquillian:wildfly-arquillian-protocol-jmx ...
+[INFO]                                              3.0.1.Final -> 5.0.0.Alpha1
+[INFO]   org.xmlunit:xmlunit-core .............................. 2.2.1 -> 2.8.3
+[INFO]   org.xmlunit:xmlunit-matchers .......................... 2.2.1 -> 2.8.3
+[INFO]   redis.clients:jedis .................................. 2.10.0 -> 3.7.0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.066 s
+[INFO] Finished at: 2021-10-25T13:11:59+03:00
+[INFO] ------------------------------------------------------------------------
