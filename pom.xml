@@ -31,7 +31,7 @@
 		<jackson.databind.version>2.11.2</jackson.databind.version>
 		<json.version>20200518</json.version>
 
-		<log4j.version>2.15.0</log4j.version>
+		<log4j.version>2.16.0</log4j.version>
 		<slf4j.version>1.7.30</slf4j.version>
 
 		<guava.version>29.0-jre</guava.version>
