@@ -664,6 +664,12 @@
 			    <scope>import</scope>
 			    <type>pom</type>
 			</dependency>
+			<!-- Force to use this version because MySQL connector depends on older version -->
+			<dependency>
+			    <groupId>com.google.protobuf</groupId>
+			    <artifactId>protobuf-java</artifactId>
+			    <version>3.19.1</version>
+			</dependency>
 
 			<!-- Metrics -->
 			<dependency>
