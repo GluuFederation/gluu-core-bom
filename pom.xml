@@ -660,7 +660,7 @@
 			<dependency>
 			    <groupId>io.grpc</groupId>
 			    <artifactId>grpc-bom</artifactId>
-			    <version>1.43.0</version>
+			    <version>1.43.1</version>
 			    <scope>import</scope>
 			    <type>pom</type>
 			</dependency>
