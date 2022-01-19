@@ -38,6 +38,8 @@
 
 		<aws.sns.version>1.12.94</aws.sns.version>
 		<jackrabbit.version>2.21.8</jackrabbit.version>
+
+		<bouncycastle.version>1.69</bouncycastle.version>
 	</properties>
 
 	<repositories>
@@ -216,12 +218,12 @@
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcprov-jdk15on</artifactId>
-				<version>1.69</version>
+				<version>${bouncycastle.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
 				<artifactId>bcpkix-jdk15on</artifactId>
-				<version>1.69</version>
+				<version>${bouncycastle.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
