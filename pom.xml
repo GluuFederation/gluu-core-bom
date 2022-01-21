@@ -521,6 +521,11 @@
                 <version>${resteasy.version}</version>
             </dependency>
 			<dependency>
+				<groupId>org.jboss.resteasy</groupId>
+				<artifactId>resteasy-links</artifactId>
+                <version>${resteasy.version}</version>
+			</dependency>
+			<dependency>
 			    <groupId>javax.ws.rs</groupId>
 			    <artifactId>javax.ws.rs-api</artifactId>
 			    <version>2.1.1</version>
