@@ -13,12 +13,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.min-version>3.0.3</maven.min-version>
 
-		<resteasy.version>4.5.7.Final</resteasy.version>
+		<resteasy.version>4.7.5.Final</resteasy.version>
 
 		<httpcore.version>4.4.14</httpcore.version>
 		<httpclient.version>4.5.13</httpclient.version>
 
-		<weld.version>3.1.8.Final</weld.version>
+		<weld.version>3.1.9.Final</weld.version>
 		<servlet.version>5.0.0</servlet.version>
 		<richfaces.version>4.5.19-gluu.Final</richfaces.version>
 
@@ -27,14 +27,14 @@
 		<uel-api.version>2.2.1-b04</uel-api.version>
 		<uel-impl.version>2.2.1-b05</uel-impl.version>
 
-		<jackson.version>2.13.0</jackson.version>
-		<jackson.databind.version>2.13.0</jackson.databind.version>
+		<jackson.version>2.13.2</jackson.version>
+		<jackson.databind.version>2.13.2.2</jackson.databind.version>
 		<json.version>20210307</json.version>
 
-		<log4j.version>2.17.1</log4j.version>
-		<slf4j.version>1.7.31</slf4j.version>
+		<log4j.version>2.17.2</log4j.version>
+		<slf4j.version>1.7.36</slf4j.version>
 
-		<guava.version>31.0.1-jre</guava.version>
+		<guava.version>31.1-jre</guava.version>
 
 		<aws.sns.version>1.12.94</aws.sns.version>
 		<jackrabbit.version>2.21.8</jackrabbit.version>
@@ -635,12 +635,12 @@
 			<dependency>
 			    <groupId>mysql</groupId>
 			    <artifactId>mysql-connector-java</artifactId>
-			    <version>8.0.27</version>
+			    <version>8.0.28</version>
 			</dependency>
 			<dependency>
 			    <groupId>org.postgresql</groupId>
 			    <artifactId>postgresql</artifactId>
-			    <version>42.2.23.jre7</version>
+			    <version>42.3.3</version>
 			</dependency>
 
 			<!-- SQL Query -->
@@ -659,28 +659,14 @@
 			<dependency>
 			    <groupId>com.google.cloud</groupId>
 			    <artifactId>google-cloud-spanner</artifactId>
-			    <version>6.17.3</version>
-			</dependency>
-			<!-- Force to use latest grpc libs. We need to remove this once google-cloud-spanner will depend on grpc >= 1.43.0  -->
-			<dependency>
-			    <groupId>io.grpc</groupId>
-			    <artifactId>grpc-bom</artifactId>
-			    <version>1.43.1</version>
-			    <scope>import</scope>
-			    <type>pom</type>
-			</dependency>
-			<!-- Force to use this version because MySQL connector depends on older version -->
-			<dependency>
-			    <groupId>com.google.protobuf</groupId>
-			    <artifactId>protobuf-java</artifactId>
-			    <version>3.19.2</version>
+			    <version>6.23.1</version>
 			</dependency>
 
 			<!-- Metrics -->
 			<dependency>
 				<groupId>io.dropwizard.metrics</groupId>
 				<artifactId>metrics-core</artifactId>
-				<version>4.2.4</version>
+				<version>4.2.9</version>
 			</dependency>
 			
 			<!-- Timer -->
