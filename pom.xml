@@ -36,7 +36,7 @@
 
 		<guava.version>31.1-jre</guava.version>
 
-		<aws.sns.version>1.12.94</aws.sns.version>
+		<aws.sns.version>1.12.193</aws.sns.version>
 		<jackrabbit.version>2.21.8</jackrabbit.version>
 	</properties>
 
@@ -211,6 +211,11 @@
 				<artifactId>guava</artifactId>
 				<version>${guava.version}</version>
 			</dependency>
+			<dependency>
+			    <groupId>com.google.http-client</groupId>
+			    <artifactId>google-http-client-jackson2</artifactId>
+			    <version>1.41.5</version>
+			</dependency>
 
 			<!-- Security -->
 			<dependency>
@@ -241,7 +246,7 @@
 			<dependency>
 				<groupId>com.nimbusds</groupId>
 				<artifactId>nimbus-jose-jwt</artifactId>
-				<version>9.15.2</version>
+				<version>9.21</version>
 			</dependency>
 
 			<!-- Weld -->
@@ -565,7 +570,7 @@
 			<dependency>
 				<groupId>redis.clients</groupId>
 				<artifactId>jedis</artifactId>
-				<version>3.7.0</version>
+				<version>3.8.0</version>
 			</dependency>
 
 			<!-- HTTP client -->
@@ -616,7 +621,7 @@
 			<dependency>
 				<groupId>com.unboundid</groupId>
 				<artifactId>unboundid-ldapsdk</artifactId>
-				<version>6.0.0</version>
+				<version>6.0.4</version>
 			</dependency>
 
 			<!-- Couchbase -->
@@ -652,7 +657,7 @@
 			<dependency>
 				<groupId>com.github.jsqlparser</groupId>
 				<artifactId>jsqlparser</artifactId>
-				<version>4.2</version>
+				<version>4.3</version>
 			</dependency>
 
 			<!-- Cloud Spanner -->
@@ -754,7 +759,7 @@
 			<dependency>
 				<groupId>com.beust</groupId>
 				<artifactId>jcommander</artifactId>
-				<version>1.81</version>
+				<version>1.82</version>
 				<scope>test</scope>
 			</dependency>
 
