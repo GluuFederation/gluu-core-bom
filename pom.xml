@@ -721,11 +721,7 @@
 			<dependency>
 				<groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
 				<artifactId>owasp-java-html-sanitizer</artifactId>
-<<<<<<< HEAD
-				<version>20211018.1</version>
-=======
-				<version>20211018.2</version>
->>>>>>> branch 'master' of https://github.com/GluuFederation/gluu-core-bom
+				<version>20220608.1</version>
 			</dependency>
 
 			<!-- Velocity -->
