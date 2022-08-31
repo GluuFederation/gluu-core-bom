@@ -37,7 +37,7 @@
 		<guava.version>31.1-jre</guava.version>
 
 		<aws.sns.version>1.12.193</aws.sns.version>
-		<jackrabbit.version>2.21.8</jackrabbit.version>
+		<jackrabbit.version>2.21.12</jackrabbit.version>
 	</properties>
 
 	<repositories>
