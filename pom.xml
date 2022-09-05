@@ -645,7 +645,7 @@
 			<dependency>
 			    <groupId>org.postgresql</groupId>
 			    <artifactId>postgresql</artifactId>
-			    <version>42.3.3</version>
+			    <version>42.4.1</version>
 			</dependency>
 			<!-- Check if we can remove this after mysql/postgresql/spanner libs upgrade -->
 			<dependency>
