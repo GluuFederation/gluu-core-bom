@@ -230,6 +230,16 @@
 			</dependency>
 			<dependency>
 				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcutil-jdk15on</artifactId>
+				<version>1.70</version>
+			</dependency>
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcmail-jdk15on</artifactId>
+				<version>1.70</version>
+			</dependency>
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
 				<artifactId>bc-fips</artifactId>
 				<version>1.0.2.3</version>
 			</dependency>
