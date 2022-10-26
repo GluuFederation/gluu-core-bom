@@ -13,9 +13,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.min-version>3.0.3</maven.min-version>
 
-		<resteasy.version>4.7.5.Final</resteasy.version>
+		<resteasy.version>4.7.7.Final</resteasy.version>
 
-		<httpcore.version>4.4.14</httpcore.version>
+		<httpcore.version>4.4.15</httpcore.version>
 		<httpclient.version>4.5.13</httpclient.version>
 
 		<weld.version>3.1.9.Final</weld.version>
@@ -23,21 +23,21 @@
 		<richfaces.version>4.5.19-gluu.Final</richfaces.version>
 
 		<jsf-api.version>2.2.20</jsf-api.version>
-		<jsf-impl.version>2.3.14</jsf-impl.version>
+		<jsf-impl.version>2.3.18</jsf-impl.version>
 		<uel-api.version>2.2.1-b04</uel-api.version>
 		<uel-impl.version>2.2.1-b05</uel-impl.version>
 
-		<jackson.version>2.13.2</jackson.version>
-		<jackson.databind.version>2.13.2.2</jackson.databind.version>
+		<jackson.version>2.14.0-rc2</jackson.version>
+		<jackson.databind.version>2.14.0-rc2</jackson.databind.version>
 		<json.version>20210307</json.version>
 
-		<log4j.version>2.17.2</log4j.version>
+		<log4j.version>2.19.0</log4j.version>
 		<slf4j.version>1.7.36</slf4j.version>
 
 		<guava.version>31.1-jre</guava.version>
 
-		<aws.sns.version>1.12.193</aws.sns.version>
-		<jackrabbit.version>2.21.12</jackrabbit.version>
+		<aws.sns.version>1.12.327</aws.sns.version>
+		<jackrabbit.version>2.21.13</jackrabbit.version>
 	</properties>
 
 	<repositories>
@@ -470,6 +470,13 @@
 				<version>${jackson.version}</version>
 			</dependency>
 
+			<!-- Jettison -->
+			<dependency>
+				<groupId>org.codehaus.jettison</groupId>
+				<artifactId>jettison</artifactId>
+				<version>1.5.1</version>
+			</dependency>
+
 			<!-- Jython -->
 			<dependency>
 				<groupId>org.gluufederation</groupId>
@@ -477,7 +484,7 @@
 				<version>2.7.3</version>
 			</dependency>
 
-					<!-- Jackrabbit content repository -->
+			<!-- Jackrabbit content repository -->
 			<dependency>
 				<groupId>javax.jcr</groupId>
 				<artifactId>jcr</artifactId>
@@ -765,7 +772,7 @@
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-deploy</artifactId>
-				<version>9.4.43.v20210629</version>
+				<version>9.4.49.v20220914</version>
 				<scope>provided</scope>
 			</dependency>
 
