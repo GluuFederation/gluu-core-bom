@@ -7,7 +7,7 @@
 	<artifactId>gluu-core-bom</artifactId>
 	<packaging>pom</packaging>
 	<name>gluu-core-bom</name>
-	<version>4.5.2.Final</version>
+	<version>4.5.3-SNAPSHOT</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,6 +20,7 @@
 
 		<weld.version>3.1.9.Final</weld.version>
 		<servlet.version>5.0.0</servlet.version>
+		<jetty-server.version>10.0.16</jetty-server.version>
 		<richfaces.version>4.5.19-gluu.Final</richfaces.version>
 
 		<jsf-api.version>2.2.20</jsf-api.version>
@@ -646,7 +647,7 @@
 			<dependency>
 				<groupId>com.couchbase.client</groupId>
 				<artifactId>java-client</artifactId>
-				<version>3.4.4</version>
+				<version>3.4.10</version>
 			</dependency>
 
 			<!-- SQL JDBC Drivers -->
@@ -770,6 +771,11 @@
 			</dependency>
 
 			<!-- Jetty -->
+			<dependency>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-server</artifactId>
+				<version>${jetty-server.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-deploy</artifactId>
