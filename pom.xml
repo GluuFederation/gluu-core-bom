@@ -64,6 +64,11 @@
             <name>mulesoft</name>
             <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
         </repository>
+		<repository>
+			<id>shib-release</id>
+			<name>shib release</name>
+			<url>https://build.shibboleth.net/nexus/content/groups/public</url>
+		</repository>
 	</repositories>
 
 	<dependencyManagement>
