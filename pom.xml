@@ -40,6 +40,9 @@
 
 		<aws.sns.version>1.12.701</aws.sns.version>
 		<jackrabbit.version>2.21.25</jackrabbit.version>
+
+		<junit.jupiter.version>5.9.2</junit.jupiter.version>
+		<mockito.version>5.1.1</mockito.version>
 	</properties>
 
 	<repositories>
@@ -211,6 +214,13 @@
                 <artifactId>gluu-orm-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+			<!-- Docs -->
+			<dependency>
+				<groupId>org.gluu</groupId>
+				<artifactId>gluu-doc</artifactId>
+                <version>${project.version}</version>
+			</dependency>
 
 			<!-- Google -->
 			<dependency>
@@ -772,6 +782,50 @@
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>4.13.2</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.jboss.weld</groupId>
+				<artifactId>weld-junit5</artifactId>
+				<version>4.0.0.Final</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- JUnit Jupiter -->
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-api</artifactId>
+				<version>${junit.jupiter.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-engine</artifactId>
+				<version>${junit.jupiter.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter-params</artifactId>
+				<version>${junit.jupiter.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- Mockito -->
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-core</artifactId>
+				<version>${mockito.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-inline</artifactId>
+				<version>${mockito.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-junit-jupiter</artifactId>
+				<version>${mockito.version}</version>
 				<scope>test</scope>
 			</dependency>
 
