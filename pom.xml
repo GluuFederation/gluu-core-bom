@@ -71,77 +71,77 @@
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-model</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-demo-cdi</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-jsf-util</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>security-extension-cdi</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>exception-extension-cdi</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-radius</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-saml</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-service</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-util</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-server</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-cdi</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-timer-weld</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-cache</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-document-store</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>oxcore-script</artifactId>
-                <version>4.5.1.sp1</version>
+                <version>4.5.1.Final</version>
             </dependency>
 
 	<!-- ORM -->
