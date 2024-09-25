@@ -7,7 +7,7 @@
 	<artifactId>gluu-core-bom</artifactId>
 	<packaging>pom</packaging>
 	<name>gluu-core-bom</name>
-	<version>4.5.1.Final</version>
+	<version>4.5.1.sp1</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -148,62 +148,62 @@
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-annotation</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-cdi</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-core</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-filter</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-couchbase</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-sql</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-spanner</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-hybrid</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-ldap</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-model</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-standalone</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
             <dependency>
                 <groupId>org.gluu</groupId>
                 <artifactId>gluu-orm-util</artifactId>
-                <version>${project.version}</version>
+                <version>4.5.1.sp1</version>
             </dependency>
 
 			<!-- Google -->
